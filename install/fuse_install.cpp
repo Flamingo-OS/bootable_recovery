@@ -46,8 +46,6 @@
 #define MMC_1_TYPE_PATH "/sys/block/mmcblk1/device/type"
 #define SDCARD_BLK_1_PATH "/dev/block/mmcblk1p1"
 
-static constexpr const char* SDCARD_ROOT = "/data/media/0";
-
 using android::volmgr::VolumeInfo;
 using android::volmgr::VolumeManager;
 
